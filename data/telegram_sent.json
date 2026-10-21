@@ -1,0 +1,812 @@
+[
+  {
+    "epoch": 1792587830.4808698,
+    "time": "2026-10-21 14:03:50",
+    "title": "Camera Integrity Alert: No Signal",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "phone_camera_20261021_140150",
+    "dedupe_key": "camera_health:phone_camera_20261021_140150:No Signal",
+    "telegram_message_id": 86
+  },
+  {
+    "epoch": 1792587829.7029014,
+    "time": "2026-10-21 14:03:49",
+    "title": "Camera Source Offline",
+    "severity": "critical",
+    "category": "engine",
+    "source": "http://10.123.176.31:8080",
+    "dedupe_key": "engine:Camera Source Offline:http://10.123.176.31:8080",
+    "telegram_message_id": 85
+  },
+  {
+    "epoch": 1792587737.0099897,
+    "time": "2026-10-21 14:02:17",
+    "title": "Camera Integrity Alert: No Signal",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "phone_camera_20261021_140150",
+    "dedupe_key": "camera_health:phone_camera_20261021_140150:No Signal",
+    "telegram_message_id": 84
+  },
+  {
+    "epoch": 1792587736.2787404,
+    "time": "2026-10-21 14:02:16",
+    "title": "Camera Source Offline",
+    "severity": "critical",
+    "category": "engine",
+    "source": "http://10.123.176.31:8080",
+    "dedupe_key": "engine:Camera Source Offline:http://10.123.176.31:8080",
+    "telegram_message_id": 83
+  },
+  {
+    "epoch": 1792587594.2138283,
+    "time": "2026-10-21 13:59:54",
+    "title": "Camera Integrity Alert: No Signal",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "phone_camera_20261021_135857",
+    "dedupe_key": "camera_health:phone_camera_20261021_135857:No Signal",
+    "telegram_message_id": 82
+  },
+  {
+    "epoch": 1792587593.4620051,
+    "time": "2026-10-21 13:59:53",
+    "title": "Camera Source Offline",
+    "severity": "critical",
+    "category": "engine",
+    "source": "https://10.123.176.31:8080",
+    "dedupe_key": "engine:Camera Source Offline:https://10.123.176.31:8080",
+    "telegram_message_id": 81
+  },
+  {
+    "epoch": 1792579627.6815944,
+    "time": "2026-10-21 11:47:07",
+    "title": "Camera Integrity Alert: Blurred Lens",
+    "severity": "high",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Blurred Lens",
+    "telegram_message_id": 80
+  },
+  {
+    "epoch": 1792579564.1234667,
+    "time": "2026-10-21 11:46:04",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 79
+  },
+  {
+    "epoch": 1792579549.411018,
+    "time": "2026-10-21 11:45:49",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 78
+  },
+  {
+    "epoch": 1792579547.6695476,
+    "time": "2026-10-21 11:45:47",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 77
+  },
+  {
+    "epoch": 1792579547.0565567,
+    "time": "2026-10-21 11:45:47",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 76
+  },
+  {
+    "epoch": 1792579545.4389458,
+    "time": "2026-10-21 11:45:45",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 75
+  },
+  {
+    "epoch": 1792579544.7001634,
+    "time": "2026-10-21 11:45:44",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 74
+  },
+  {
+    "epoch": 1792579521.4903932,
+    "time": "2026-10-21 11:45:21",
+    "title": "Zone Overload Detected",
+    "severity": "high",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Zone Overload:Main Monitoring Zone",
+    "telegram_message_id": 73
+  },
+  {
+    "epoch": 1792579482.1676402,
+    "time": "2026-10-21 11:44:42",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 72
+  },
+  {
+    "epoch": 1792579481.420867,
+    "time": "2026-10-21 11:44:41",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 71
+  },
+  {
+    "epoch": 1792579476.4028294,
+    "time": "2026-10-21 11:44:36",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 70
+  },
+  {
+    "epoch": 1792579475.4846165,
+    "time": "2026-10-21 11:44:35",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 69
+  },
+  {
+    "epoch": 1792579443.7657766,
+    "time": "2026-10-21 11:44:03",
+    "title": "Zone Overload Detected",
+    "severity": "high",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Zone Overload:Main Monitoring Zone",
+    "telegram_message_id": 68
+  },
+  {
+    "epoch": 1792579425.7221065,
+    "time": "2026-10-21 11:43:45",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 67
+  },
+  {
+    "epoch": 1792579420.5917656,
+    "time": "2026-10-21 11:43:40",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 66
+  },
+  {
+    "epoch": 1792579419.7975817,
+    "time": "2026-10-21 11:43:39",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 65
+  },
+  {
+    "epoch": 1792579419.1618335,
+    "time": "2026-10-21 11:43:39",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 64
+  },
+  {
+    "epoch": 1792579412.90531,
+    "time": "2026-10-21 11:43:32",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 63
+  },
+  {
+    "epoch": 1792579412.0329444,
+    "time": "2026-10-21 11:43:32",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 62
+  },
+  {
+    "epoch": 1792579350.3834555,
+    "time": "2026-10-21 11:42:30",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 61
+  },
+  {
+    "epoch": 1792579349.6791837,
+    "time": "2026-10-21 11:42:29",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 60
+  },
+  {
+    "epoch": 1792578827.6114,
+    "time": "2026-10-21 11:33:47",
+    "title": "Camera Integrity Alert: Frozen Frame",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Frozen Frame",
+    "telegram_message_id": 59
+  },
+  {
+    "epoch": 1792578780.2493913,
+    "time": "2026-10-21 11:33:00",
+    "title": "Camera Integrity Alert: Blurred Lens",
+    "severity": "high",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Blurred Lens",
+    "telegram_message_id": 58
+  },
+  {
+    "epoch": 1792578757.525092,
+    "time": "2026-10-21 11:32:37",
+    "title": "Camera Integrity Alert: Frozen Frame",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Frozen Frame",
+    "telegram_message_id": 57
+  },
+  {
+    "epoch": 1792578703.5390005,
+    "time": "2026-10-21 11:31:43",
+    "title": "Camera Integrity Alert: Blurred Lens",
+    "severity": "high",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Blurred Lens",
+    "telegram_message_id": 56
+  },
+  {
+    "epoch": 1792578696.4957032,
+    "time": "2026-10-21 11:31:36",
+    "title": "Camera Integrity Alert: Frozen Frame",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Frozen Frame",
+    "telegram_message_id": 55
+  },
+  {
+    "epoch": 1792578607.3836389,
+    "time": "2026-10-21 11:30:07",
+    "title": "Camera Integrity Alert: Frozen Frame",
+    "severity": "critical",
+    "category": "camera_health",
+    "source": "webcam_20260705_171619",
+    "dedupe_key": "camera_health:webcam_20260705_171619:Frozen Frame",
+    "telegram_message_id": 54
+  },
+  {
+    "epoch": 1791982942.120373,
+    "time": "2026-10-14 14:02:22",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 53
+  },
+  {
+    "epoch": 1791982935.666472,
+    "time": "2026-10-14 14:02:15",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 52
+  },
+  {
+    "epoch": 1791982934.837738,
+    "time": "2026-10-14 14:02:14",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 51
+  },
+  {
+    "epoch": 1791982933.6791115,
+    "time": "2026-10-14 14:02:13",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 50
+  },
+  {
+    "epoch": 1791982895.8584104,
+    "time": "2026-10-14 14:01:35",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 49
+  },
+  {
+    "epoch": 1791982895.0882123,
+    "time": "2026-10-14 14:01:35",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 48
+  },
+  {
+    "epoch": 1791982871.5194309,
+    "time": "2026-10-14 14:01:11",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 47
+  },
+  {
+    "epoch": 1791982870.7098448,
+    "time": "2026-10-14 14:01:10",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 46
+  },
+  {
+    "epoch": 1791982867.256236,
+    "time": "2026-10-14 14:01:07",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 45
+  },
+  {
+    "epoch": 1791982838.7947545,
+    "time": "2026-10-14 14:00:38",
+    "title": "Crowd Surge Detected",
+    "severity": "critical",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 44
+  },
+  {
+    "epoch": 1791982695.0868955,
+    "time": "2026-10-14 13:58:15",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 43
+  },
+  {
+    "epoch": 1791982694.3842394,
+    "time": "2026-10-14 13:58:14",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 42
+  },
+  {
+    "epoch": 1791982684.1357155,
+    "time": "2026-10-14 13:58:04",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 41
+  },
+  {
+    "epoch": 1791982683.3935626,
+    "time": "2026-10-14 13:58:03",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 40
+  },
+  {
+    "epoch": 1791982681.3799138,
+    "time": "2026-10-14 13:58:01",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 39
+  },
+  {
+    "epoch": 1791982658.5302405,
+    "time": "2026-10-14 13:57:38",
+    "title": "Crowd Surge Detected",
+    "severity": "critical",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 38
+  },
+  {
+    "epoch": 1791982547.5297384,
+    "time": "2026-10-14 13:55:47",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 37
+  },
+  {
+    "epoch": 1791982546.8246224,
+    "time": "2026-10-14 13:55:46",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 36
+  },
+  {
+    "epoch": 1791982535.7582505,
+    "time": "2026-10-14 13:55:35",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 35
+  },
+  {
+    "epoch": 1791982534.975652,
+    "time": "2026-10-14 13:55:34",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 34
+  },
+  {
+    "epoch": 1791982533.0236719,
+    "time": "2026-10-14 13:55:33",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 33
+  },
+  {
+    "epoch": 1791982508.41191,
+    "time": "2026-10-14 13:55:08",
+    "title": "Crowd Surge Detected",
+    "severity": "critical",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 32
+  },
+  {
+    "epoch": 1784557320.8862252,
+    "time": "2026-07-20 14:22:00",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 31
+  },
+  {
+    "epoch": 1784557320.1781578,
+    "time": "2026-07-20 14:22:00",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 30
+  },
+  {
+    "epoch": 1784557318.027354,
+    "time": "2026-07-20 14:21:58",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 29
+  },
+  {
+    "epoch": 1784557282.105279,
+    "time": "2026-07-20 14:21:22",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 28
+  },
+  {
+    "epoch": 1784557272.8093328,
+    "time": "2026-07-20 14:21:12",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 27
+  },
+  {
+    "epoch": 1784557272.0124621,
+    "time": "2026-07-20 14:21:12",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 26
+  },
+  {
+    "epoch": 1784557223.4115264,
+    "time": "2026-07-20 14:20:23",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 25
+  },
+  {
+    "epoch": 1784557208.676405,
+    "time": "2026-07-20 14:20:08",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 24
+  },
+  {
+    "epoch": 1784557202.3173642,
+    "time": "2026-07-20 14:20:02",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 23
+  },
+  {
+    "epoch": 1784557201.5790303,
+    "time": "2026-07-20 14:20:01",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 22
+  },
+  {
+    "epoch": 1784557199.495369,
+    "time": "2026-07-20 14:19:59",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 21
+  },
+  {
+    "epoch": 1784557198.72392,
+    "time": "2026-07-20 14:19:58",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 20
+  },
+  {
+    "epoch": 1784557098.5039961,
+    "time": "2026-07-20 14:18:18",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 19
+  },
+  {
+    "epoch": 1784556914.0782192,
+    "time": "2026-07-20 14:15:14",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 18
+  },
+  {
+    "epoch": 1784556906.1968548,
+    "time": "2026-07-20 14:15:06",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 17
+  },
+  {
+    "epoch": 1784556898.617631,
+    "time": "2026-07-20 14:14:58",
+    "title": "Crowd Surge Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 16
+  },
+  {
+    "epoch": 1784556886.937702,
+    "time": "2026-07-20 14:14:46",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 15
+  },
+  {
+    "epoch": 1784556883.2815661,
+    "time": "2026-07-20 14:14:43",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 14
+  },
+  {
+    "epoch": 1784556869.8364587,
+    "time": "2026-07-20 14:14:29",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 13
+  },
+  {
+    "epoch": 1784556251.1296844,
+    "time": "2026-07-20 14:04:11",
+    "title": "Active Crowd Incident",
+    "severity": "critical",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:Critical",
+    "telegram_message_id": 12
+  },
+  {
+    "epoch": 1784556250.4554482,
+    "time": "2026-07-20 14:04:10",
+    "title": "Critical Crowd Density",
+    "severity": "critical",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:Critical:Main Monitoring Zone",
+    "telegram_message_id": 11
+  },
+  {
+    "epoch": 1784556239.5449157,
+    "time": "2026-07-20 14:03:59",
+    "title": "Active Crowd Incident",
+    "severity": "high",
+    "category": "incident",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "incident:uploaded_video_20260629_095850:Main Monitoring Zone:High",
+    "telegram_message_id": 10
+  },
+  {
+    "epoch": 1784556238.8432758,
+    "time": "2026-07-20 14:03:58",
+    "title": "High Crowd Density",
+    "severity": "high",
+    "category": "density",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "density:uploaded_video_20260629_095850:High:Main Monitoring Zone",
+    "telegram_message_id": 9
+  },
+  {
+    "epoch": 1784556236.7842371,
+    "time": "2026-07-20 14:03:56",
+    "title": "Occupancy Spike Detected",
+    "severity": "medium",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Occupancy Spike:Main Monitoring Zone",
+    "telegram_message_id": 8
+  },
+  {
+    "epoch": 1784556212.882719,
+    "time": "2026-07-20 14:03:32",
+    "title": "Crowd Surge Detected",
+    "severity": "critical",
+    "category": "anomaly",
+    "source": "uploaded_video_20260629_095850",
+    "dedupe_key": "anomaly:uploaded_video_20260629_095850:Crowd Surge:Main Monitoring Zone",
+    "telegram_message_id": 7
+  },
+  {
+    "epoch": 1783905442.9033139,
+    "time": "2026-07-13 01:17:22",
+    "title": "CrowdVision Telegram Test",
+    "severity": "warning",
+    "category": "telegram_test",
+    "source": "CrowdVision AI",
+    "dedupe_key": "telegram:test:1783905435",
+    "telegram_message_id": 6
+  }
+]

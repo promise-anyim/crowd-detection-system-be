@@ -1,0 +1,22 @@
+{
+  "edge_id": "demo_video_01",
+  "name": "Demo Edge Video",
+  "source": "data/sample_videos/test.mp4",
+  "api": "http://127.0.0.1:8000",
+  "detect": true,
+  "model": "yolov8n.pt",
+  "loop": true,
+  "timeout": 15.0,
+  "interval": 10.0,
+  "process_every": 10,
+  "location": "Demo Video Source",
+  "display": false,
+  "preview": true,
+  "preview_interval": 1.0,
+  "preview_width": 640,
+  "preview_quality": 68,
+  "pid": 3775,
+  "started_at": "2026-07-11 11:00:47",
+  "started_at_epoch": 1783767647.0323253,
+  "managed_by_api": true
+}

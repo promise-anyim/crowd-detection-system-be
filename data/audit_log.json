@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "audit_1792589879229",
+    "time": "2026-10-21 14:37:59",
+    "epoch": 1792589879.2297447,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "phone_camera_20261021_143634",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 5596
+    }
+  },
+  {
+    "id": "audit_1792589809401",
+    "time": "2026-10-21 14:36:49",
+    "epoch": 1792589809.4011374,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261021_143634",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 5596,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792589794087",
+    "time": "2026-10-21 14:36:34",
+    "epoch": 1792589794.087427,
+    "actor": "Operator",
+    "action": "Stream source created",
+    "category": "camera_source",
+    "source": "Phone Camera",
+    "status": "Created",
+    "severity": "normal",
+    "details": "Stream source created and selected: Phone Camera.",
+    "metadata": {
+      "key": "phone_camera_20261021_143634",
+      "source_type": "phone_camera"
+    }
+  },
+  {
+    "id": "audit_1792589791882",
+    "time": "2026-10-21 14:36:31",
+    "epoch": 1792589791.8821995,
+    "actor": "Operator",
+    "action": "Camera source deleted",
+    "category": "camera_source",
+    "source": "phone_camera_20261021_141321",
+    "status": "Deleted",
+    "severity": "normal",
+    "details": "Camera source deleted: phone_camera_20261021_141321.",
+    "metadata": {
+      "profile_key": "phone_camera_20261021_141321"
+    }
+  },
+  {
+    "id": "audit_1792588401270",
+    "time": "2026-10-21 14:13:21",
+    "epoch": 1792588401.2707176,
+    "actor": "Operator",
+    "action": "Stream source created",
+    "category": "camera_source",
+    "source": "Phone Camera",
+    "status": "Created",
+    "severity": "normal",
+    "details": "Stream source created and selected: Phone Camera.",
+    "metadata": {
+      "key": "phone_camera_20261021_141321",
+      "source_type": "phone_camera"
+    }
+  },
+  {
+    "id": "audit_1792588383487",
+    "time": "2026-10-21 14:13:03",
+    "epoch": 1792588383.48799,
+    "actor": "Operator",
+    "action": "Camera source deleted",
+    "category": "camera_source",
+    "source": "phone_camera_20261021_140150",
+    "status": "Deleted",
+    "severity": "normal",
+    "details": "Camera source deleted: phone_camera_20261021_140150.",
+    "metadata": {
+      "profile_key": "phone_camera_20261021_140150"
+    }
+  },
+  {
+    "id": "audit_1792587830485",
+    "time": "2026-10-21 14:03:50",
+    "epoch": 1792587830.4853463,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "phone_camera_20261021_140150",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: No Signal",
+    "metadata": {
+      "notification_id": "cvn_1792587829719",
+      "title": "Camera Integrity Alert: No Signal"
+    }
+  },
+  {
+    "id": "audit_1792587829706",
+    "time": "2026-10-21 14:03:49",
+    "epoch": 1792587829.7067633,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "http://10.123.176.31:8080",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Source Offline",
+    "metadata": {
+      "notification_id": "cvn_1792587828802",
+      "title": "Camera Source Offline"
+    }
+  },
+  {
+    "id": "audit_1792587822359",
+    "time": "2026-10-21 14:03:42",
+    "epoch": 1792587822.359416,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261021_140150",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4351,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792587757523",
+    "time": "2026-10-21 14:02:37",
+    "epoch": 1792587757.5238721,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261021_140150",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4327,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792587737013",
+    "time": "2026-10-21 14:02:17",
+    "epoch": 1792587737.0132468,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "phone_camera_20261021_140150",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: No Signal",
+    "metadata": {
+      "notification_id": "cvn_1792587736286",
+      "title": "Camera Integrity Alert: No Signal"
+    }
+  },
+  {
+    "id": "audit_1792587736280",
+    "time": "2026-10-21 14:02:16",
+    "epoch": 1792587736.2807202,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "http://10.123.176.31:8080",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Source Offline",
+    "metadata": {
+      "notification_id": "cvn_1792587735623",
+      "title": "Camera Source Offline"
+    }
+  },
+  {
+    "id": "audit_1792587719919",
+    "time": "2026-10-21 14:01:59",
+    "epoch": 1792587719.9192777,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261021_140150",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4312,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792587710484",
+    "time": "2026-10-21 14:01:50",
+    "epoch": 1792587710.4842415,
+    "actor": "Operator",
+    "action": "Stream source created",
+    "category": "camera_source",
+    "source": "Phone Camera",
+    "status": "Created",
+    "severity": "normal",
+    "details": "Stream source created and selected: Phone Camera.",
+    "metadata": {
+      "key": "phone_camera_20261021_140150",
+      "source_type": "phone_camera"
+    }
+  },
+  {
+    "id": "audit_1792587701730",
+    "time": "2026-10-21 14:01:41",
+    "epoch": 1792587701.7303495,
+    "actor": "Operator",
+    "action": "Camera source deleted",
+    "category": "camera_source",
+    "source": "phone_camera_20261021_135857",
+    "status": "Deleted",
+    "severity": "normal",
+    "details": "Camera source deleted: phone_camera_20261021_135857.",
+    "metadata": {
+      "profile_key": "phone_camera_20261021_135857"
+    }
+  },
+  {
+    "id": "audit_1792587594219",
+    "time": "2026-10-21 13:59:54",
+    "epoch": 1792587594.2192435,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "phone_camera_20261021_135857",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: No Signal",
+    "metadata": {
+      "notification_id": "cvn_1792587593529",
+      "title": "Camera Integrity Alert: No Signal"
+    }
+  },
+  {
+    "id": "audit_1792587593466",
+    "time": "2026-10-21 13:59:53",
+    "epoch": 1792587593.4666026,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "https://10.123.176.31:8080",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Source Offline",
+    "metadata": {
+      "notification_id": "cvn_1792587585827",
+      "title": "Camera Source Offline"
+    }
+  },
+  {
+    "id": "audit_1792587552643",
+    "time": "2026-10-21 13:59:12",
+    "epoch": 1792587552.6435318,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261021_135857",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4173,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792587537289",
+    "time": "2026-10-21 13:58:57",
+    "epoch": 1792587537.2896192,
+    "actor": "Operator",
+    "action": "Stream source created",
+    "category": "camera_source",
+    "source": "Phone Camera",
+    "status": "Created",
+    "severity": "normal",
+    "details": "Stream source created and selected: Phone Camera.",
+    "metadata": {
+      "key": "phone_camera_20261021_135857",
+      "source_type": "phone_camera"
+    }
+  },
+  {
+    "id": "audit_1792587496159",
+    "time": "2026-10-21 13:58:16",
+    "epoch": 1792587496.1598556,
+    "actor": "Operator",
+    "action": "Camera source deleted",
+    "category": "camera_source",
+    "source": "phone_camera_20260627_132229",
+    "status": "Deleted",
+    "severity": "normal",
+    "details": "Camera source deleted: phone_camera_20260627_132229.",
+    "metadata": {
+      "profile_key": "phone_camera_20260627_132229"
+    }
+  },
+  {
+    "id": "audit_1792587427574",
+    "time": "2026-10-21 13:57:07",
+    "epoch": 1792587427.574416,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "phone_camera_20260627_132229",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to phone_camera_20260627_132229.",
+    "metadata": {
+      "profile_key": "phone_camera_20260627_132229"
+    }
+  },
+  {
+    "id": "audit_1792579642862",
+    "time": "2026-10-21 11:47:22",
+    "epoch": 1792579642.8624208,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to AUTO.",
+    "metadata": {
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "audit_1792579634393",
+    "time": "2026-10-21 11:47:14",
+    "epoch": 1792579634.3934152,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4899
+    }
+  },
+  {
+    "id": "audit_1792579627686",
+    "time": "2026-10-21 11:47:07",
+    "epoch": 1792579627.686936,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Blurred Lens",
+    "metadata": {
+      "notification_id": "cvn_1792579625501",
+      "title": "Camera Integrity Alert: Blurred Lens"
+    }
+  },
+  {
+    "id": "audit_1792579591170",
+    "time": "2026-10-21 11:46:31",
+    "epoch": 1792579591.1707628,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in ULTRA mode.",
+    "metadata": {
+      "pid": 4899,
+      "mode": "ULTRA"
+    }
+  },
+  {
+    "id": "audit_1792579583736",
+    "time": "2026-10-21 11:46:23",
+    "epoch": 1792579583.7362647,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
+    "id": "audit_1792579576730",
+    "time": "2026-10-21 11:46:16",
+    "epoch": 1792579576.7302516,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4732
+    }
+  },
+  {
+    "id": "audit_1792579564126",
+    "time": "2026-10-21 11:46:04",
+    "epoch": 1792579564.1260288,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579562274",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1792579549413",
+    "time": "2026-10-21 11:45:49",
+    "epoch": 1792579549.4139185,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579548665",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1792579547672",
+    "time": "2026-10-21 11:45:47",
+    "epoch": 1792579547.672818,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579547063",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579547058",
+    "time": "2026-10-21 11:45:47",
+    "epoch": 1792579547.0583007,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579546315",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579545444",
+    "time": "2026-10-21 11:45:45",
+    "epoch": 1792579545.4441044,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579544710",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579544703",
+    "time": "2026-10-21 11:45:44",
+    "epoch": 1792579544.7033653,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579543847",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579521495",
+    "time": "2026-10-21 11:45:21",
+    "epoch": 1792579521.4958885,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Zone Overload Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579510698",
+      "title": "Zone Overload Detected"
+    }
+  },
+  {
+    "id": "audit_1792579482171",
+    "time": "2026-10-21 11:44:42",
+    "epoch": 1792579482.1714156,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579481431",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579481424",
+    "time": "2026-10-21 11:44:41",
+    "epoch": 1792579481.4241219,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579480641",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579476406",
+    "time": "2026-10-21 11:44:36",
+    "epoch": 1792579476.4063945,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579475496",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579475488",
+    "time": "2026-10-21 11:44:35",
+    "epoch": 1792579475.4880004,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579474770",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579443767",
+    "time": "2026-10-21 11:44:03",
+    "epoch": 1792579443.7677724,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Zone Overload Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579442936",
+      "title": "Zone Overload Detected"
+    }
+  },
+  {
+    "id": "audit_1792579425724",
+    "time": "2026-10-21 11:43:45",
+    "epoch": 1792579425.7246964,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579424890",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1792579420595",
+    "time": "2026-10-21 11:43:40",
+    "epoch": 1792579420.5951295,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1792579419806",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1792579419799",
+    "time": "2026-10-21 11:43:39",
+    "epoch": 1792579419.79987,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579419171",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579419165",
+    "time": "2026-10-21 11:43:39",
+    "epoch": 1792579419.1654115,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579418325",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579412907",
+    "time": "2026-10-21 11:43:32",
+    "epoch": 1792579412.9073782,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579412057",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579412035",
+    "time": "2026-10-21 11:43:32",
+    "epoch": 1792579412.035205,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579411014",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579350385",
+    "time": "2026-10-21 11:42:30",
+    "epoch": 1792579350.385759,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1792579349690",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1792579349682",
+    "time": "2026-10-21 11:42:29",
+    "epoch": 1792579349.6823094,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1792579343861",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1792579271595",
+    "time": "2026-10-21 11:41:11",
+    "epoch": 1792579271.595181,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in ULTRA mode.",
+    "metadata": {
+      "pid": 4732,
+      "mode": "ULTRA"
+    }
+  },
+  {
+    "id": "audit_1792579247102",
+    "time": "2026-10-21 11:40:47",
+    "epoch": 1792579247.10285,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to uploaded_video_20260629_095850.",
+    "metadata": {
+      "profile_key": "uploaded_video_20260629_095850"
+    }
+  },
+  {
+    "id": "audit_1792579230753",
+    "time": "2026-10-21 11:40:30",
+    "epoch": 1792579230.753985,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to ULTRA.",
+    "metadata": {
+      "mode": "ULTRA"
+    }
+  },
+  {
+    "id": "audit_1792579226240",
+    "time": "2026-10-21 11:40:26",
+    "epoch": 1792579226.2406666,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to HIGH.",
+    "metadata": {
+      "mode": "HIGH"
+    }
+  },
+  {
+    "id": "audit_1792579193503",
+    "time": "2026-10-21 11:39:53",
+    "epoch": 1792579193.5035424,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261021_113407.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261021_113407.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261021_113407.txt"
+    }
+  },
+  {
+    "id": "audit_1792579193490",
+    "time": "2026-10-21 11:39:53",
+    "epoch": 1792579193.4909809,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261021_113407.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261021_113407.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261021_113407.txt"
+    }
+  },
+  {
+    "id": "audit_1792578891421",
+    "time": "2026-10-21 11:34:51",
+    "epoch": 1792578891.4215972,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4164
+    }
+  },
+  {
+    "id": "audit_1792578827616",
+    "time": "2026-10-21 11:33:47",
+    "epoch": 1792578827.6165948,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Frozen Frame",
+    "metadata": {
+      "notification_id": "cvn_1792578826832",
+      "title": "Camera Integrity Alert: Frozen Frame"
+    }
+  },
+  {
+    "id": "audit_1792578780252",
+    "time": "2026-10-21 11:33:00",
+    "epoch": 1792578780.252225,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Blurred Lens",
+    "metadata": {
+      "notification_id": "cvn_1792578779445",
+      "title": "Camera Integrity Alert: Blurred Lens"
+    }
+  },
+  {
+    "id": "audit_1792578757528",
+    "time": "2026-10-21 11:32:37",
+    "epoch": 1792578757.5280588,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Frozen Frame",
+    "metadata": {
+      "notification_id": "cvn_1792578756700",
+      "title": "Camera Integrity Alert: Frozen Frame"
+    }
+  },
+  {
+    "id": "audit_1792578703543",
+    "time": "2026-10-21 11:31:43",
+    "epoch": 1792578703.5430896,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Blurred Lens",
+    "metadata": {
+      "notification_id": "cvn_1792578702690",
+      "title": "Camera Integrity Alert: Blurred Lens"
+    }
+  },
+  {
+    "id": "audit_1792578696608",
+    "time": "2026-10-21 11:31:36",
+    "epoch": 1792578696.6080267,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Frozen Frame",
+    "metadata": {
+      "notification_id": "cvn_1792578695525",
+      "title": "Camera Integrity Alert: Frozen Frame"
+    }
+  },
+  {
+    "id": "audit_1792578607387",
+    "time": "2026-10-21 11:30:07",
+    "epoch": 1792578607.3876634,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "webcam_20260705_171619",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Camera Integrity Alert: Frozen Frame",
+    "metadata": {
+      "notification_id": "cvn_1792578601296",
+      "title": "Camera Integrity Alert: Frozen Frame"
+    }
+  },
+  {
+    "id": "audit_1792578449469",
+    "time": "2026-10-21 11:27:29",
+    "epoch": 1792578449.469818,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4164,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792578441356",
+    "time": "2026-10-21 11:27:21",
+    "epoch": 1792578441.3569655,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
+    "id": "audit_1791982956589",
+    "time": "2026-10-14 14:02:36",
+    "epoch": 1791982956.5893376,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4949
+    }
+  },
+  {
+    "id": "audit_1791982942121",
+    "time": "2026-10-14 14:02:22",
+    "epoch": 1791982942.1216304,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982938798",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1791982935671",
+    "time": "2026-10-14 14:02:15",
+    "epoch": 1791982935.6712706,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982934845",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982934840",
+    "time": "2026-10-14 14:02:14",
+    "epoch": 1791982934.8400164,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982933745",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982933680",
+    "time": "2026-10-14 14:02:13",
+    "epoch": 1791982933.6805494,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982932655",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1791982895863",
+    "time": "2026-10-14 14:01:35",
+    "epoch": 1791982895.8637002,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982895094",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982895089",
+    "time": "2026-10-14 14:01:35",
+    "epoch": 1791982895.0896316,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982894277",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982871520",
+    "time": "2026-10-14 14:01:11",
+    "epoch": 1791982871.5206523,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982870715",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982870711",
+    "time": "2026-10-14 14:01:10",
+    "epoch": 1791982870.711711,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982869745",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982867257",
+    "time": "2026-10-14 14:01:07",
+    "epoch": 1791982867.2579386,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982865984",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1791982838796",
+    "time": "2026-10-14 14:00:38",
+    "epoch": 1791982838.7960193,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982837980",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1791982828913",
+    "time": "2026-10-14 14:00:28",
+    "epoch": 1791982828.9135027,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4949,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1791982726057",
+    "time": "2026-10-14 13:58:46",
+    "epoch": 1791982726.0576782,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4712
+    }
+  },
+  {
+    "id": "audit_1791982695089",
+    "time": "2026-10-14 13:58:15",
+    "epoch": 1791982695.0894513,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982694390",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982694385",
+    "time": "2026-10-14 13:58:14",
+    "epoch": 1791982694.38583,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982693622",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982684137",
+    "time": "2026-10-14 13:58:04",
+    "epoch": 1791982684.1373065,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982683400",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982683395",
+    "time": "2026-10-14 13:58:03",
+    "epoch": 1791982683.395418,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982682589",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982681380",
+    "time": "2026-10-14 13:58:01",
+    "epoch": 1791982681.3808975,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982680616",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1791982658532",
+    "time": "2026-10-14 13:57:38",
+    "epoch": 1791982658.5325985,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982647757",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1791982636269",
+    "time": "2026-10-14 13:57:16",
+    "epoch": 1791982636.2690666,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4712,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1791982596473",
+    "time": "2026-10-14 13:56:36",
+    "epoch": 1791982596.4734802,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4595
+    }
+  },
+  {
+    "id": "audit_1791982547531",
+    "time": "2026-10-14 13:55:47",
+    "epoch": 1791982547.5311298,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982546830",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982546826",
+    "time": "2026-10-14 13:55:46",
+    "epoch": 1791982546.8262434,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982546049",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982535759",
+    "time": "2026-10-14 13:55:35",
+    "epoch": 1791982535.7598839,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1791982534981",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1791982534977",
+    "time": "2026-10-14 13:55:34",
+    "epoch": 1791982534.9770985,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1791982534196",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1791982533026",
+    "time": "2026-10-14 13:55:33",
+    "epoch": 1791982533.0263388,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982532143",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1791982508463",
+    "time": "2026-10-14 13:55:08",
+    "epoch": 1791982508.4636734,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1791982502163",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1791982449824",
+    "time": "2026-10-14 13:54:09",
+    "epoch": 1791982449.8249018,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4595,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1786005325382",
+    "time": "2026-08-06 08:35:25",
+    "epoch": 1786005325.3825176,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 5254
+    }
+  },
+  {
+    "id": "audit_1786005081646",
+    "time": "2026-08-06 08:31:21",
+    "epoch": 1786005081.6465476,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 5254,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1786004957809",
+    "time": "2026-08-06 08:29:17",
+    "epoch": 1786004957.8099873,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 4866
+    }
+  },
+  {
+    "id": "audit_1786004759914",
+    "time": "2026-08-06 08:25:59",
+    "epoch": 1786004759.9143014,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 4866,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1784557355535",
+    "time": "2026-07-20 14:22:35",
+    "epoch": 1784557355.5354671,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 24299
+    }
+  },
+  {
+    "id": "audit_1784557320887",
+    "time": "2026-07-20 14:22:00",
+    "epoch": 1784557320.8875916,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784557320181",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784557320179",
+    "time": "2026-07-20 14:22:00",
+    "epoch": 1784557320.179305,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784557319211",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784557318029",
+    "time": "2026-07-20 14:21:58",
+    "epoch": 1784557318.0298495,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1784557317205",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1784557282106",
+    "time": "2026-07-20 14:21:22",
+    "epoch": 1784557282.1061614,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1784557279051",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1784557272810",
+    "time": "2026-07-20 14:21:12",
+    "epoch": 1784557272.8101418,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784557272016",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784557272013",
+    "time": "2026-07-20 14:21:12",
+    "epoch": 1784557272.0133605,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784557270042",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784557223413",
+    "time": "2026-07-20 14:20:23",
+    "epoch": 1784557223.413383,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1784557222515",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1784557208677",
+    "time": "2026-07-20 14:20:08",
+    "epoch": 1784557208.6775339,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1784557207753",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1784557202339",
+    "time": "2026-07-20 14:20:02",
+    "epoch": 1784557202.3399806,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784557201582",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784557201579",
+    "time": "2026-07-20 14:20:01",
+    "epoch": 1784557201.5798054,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784557200844",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784557199496",
+    "time": "2026-07-20 14:19:59",
+    "epoch": 1784557199.4964774,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784557198790",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784557198725",
+    "time": "2026-07-20 14:19:58",
+    "epoch": 1784557198.725302,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784557177992",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784557098505",
+    "time": "2026-07-20 14:18:18",
+    "epoch": 1784557098.5052054,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784557077906",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784556914078",
+    "time": "2026-07-20 14:15:14",
+    "epoch": 1784556914.0789063,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784556906199",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784556906197",
+    "time": "2026-07-20 14:15:06",
+    "epoch": 1784556906.197418,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784556899907",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784556898618",
+    "time": "2026-07-20 14:14:58",
+    "epoch": 1784556898.6188104,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1784556895741",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1784556886938",
+    "time": "2026-07-20 14:14:46",
+    "epoch": 1784556886.9382713,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784556883285",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784556883282",
+    "time": "2026-07-20 14:14:43",
+    "epoch": 1784556883.2829928,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784556871015",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784556869837",
+    "time": "2026-07-20 14:14:29",
+    "epoch": 1784556869.8371618,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1784556854697",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1784556762145",
+    "time": "2026-07-20 14:12:42",
+    "epoch": 1784556762.1452138,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 24299,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1784556760324",
+    "time": "2026-07-20 14:12:40",
+    "epoch": 1784556760.3245091,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 24218
+    }
+  },
+  {
+    "id": "audit_1784556600201",
+    "time": "2026-07-20 14:10:00",
+    "epoch": 1784556600.201915,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 24218,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1784556301055",
+    "time": "2026-07-20 14:05:01",
+    "epoch": 1784556301.055992,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 23747
+    }
+  },
+  {
+    "id": "audit_1784556251130",
+    "time": "2026-07-20 14:04:11",
+    "epoch": 1784556251.1304417,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784556250459",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784556250457",
+    "time": "2026-07-20 14:04:10",
+    "epoch": 1784556250.4577432,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Critical Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784556249662",
+      "title": "Critical Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784556239545",
+    "time": "2026-07-20 14:03:59",
+    "epoch": 1784556239.5455031,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for Active Crowd Incident",
+    "metadata": {
+      "notification_id": "cvn_1784556238846",
+      "title": "Active Crowd Incident"
+    }
+  },
+  {
+    "id": "audit_1784556238844",
+    "time": "2026-07-20 14:03:58",
+    "epoch": 1784556238.844294,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "high",
+    "details": "Telegram alert delivered for High Crowd Density",
+    "metadata": {
+      "notification_id": "cvn_1784556238026",
+      "title": "High Crowd Density"
+    }
+  },
+  {
+    "id": "audit_1784556236785",
+    "time": "2026-07-20 14:03:56",
+    "epoch": 1784556236.7852633,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "medium",
+    "details": "Telegram alert delivered for Occupancy Spike Detected",
+    "metadata": {
+      "notification_id": "cvn_1784556235950",
+      "title": "Occupancy Spike Detected"
+    }
+  },
+  {
+    "id": "audit_1784556212883",
+    "time": "2026-07-20 14:03:32",
+    "epoch": 1784556212.8833177,
+    "actor": "CrowdVision AI",
+    "action": "Telegram alert sent",
+    "category": "telegram",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Sent",
+    "severity": "critical",
+    "details": "Telegram alert delivered for Crowd Surge Detected",
+    "metadata": {
+      "notification_id": "cvn_1784556206860",
+      "title": "Crowd Surge Detected"
+    }
+  },
+  {
+    "id": "audit_1784556154843",
+    "time": "2026-07-20 14:02:34",
+    "epoch": 1784556154.843919,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in LOW mode.",
+    "metadata": {
+      "pid": 23747,
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1783905442904",
+    "time": "2026-07-13 01:17:22",
+    "epoch": 1783905442.9040928,
+    "actor": "Operator",
+    "action": "Telegram test alert",
+    "category": "telegram",
+    "source": "CrowdVision AI",
+    "status": "Sent",
+    "severity": "normal",
+    "details": "Telegram alert sent.",
+    "metadata": {
+      "sent": true
+    }
+  }
+]

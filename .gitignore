@@ -28,7 +28,6 @@ Thumbs.db
 # Logs and process files
 *.log
 *.pid
-data/engine.pid
 
 # Frontend has its own independent Git repository
 frontend/
@@ -42,44 +41,6 @@ yolov*.pt
 runs/
 .cache/
 torch_cache/
-
-# ==========================================
-# GENERATED CROWDVISION RUNTIME DATA
-# ==========================================
-
-# Alert evidence images
-data/alerts/
-
-# Generated PDF and TXT reports
-data/reports/
-
-# Live camera frames
-data/live/
-
-# Remote camera edge-worker runtime files
-data/edge/
-
-# User-uploaded videos
-data/uploads/
-
-# Other generated evidence and snapshots
-data/evidence/
-data/snapshots/
-
-# Mutable application state
-data/audit_log.json
-data/camera_status.json
-data/edge_telemetry.json
-data/events.csv
-data/notifications.json
-data/telegram_sent.json
-
-# Local camera and performance configuration
-data/active_camera_profile.txt
-data/performance_mode.txt
-
-# Camera profiles may contain private stream URLs or credentials
-data/source_profiles.json
 
 # Local test footage - add only approved demo assets separately
 data/sample_videos/
