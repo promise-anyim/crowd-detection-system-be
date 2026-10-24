@@ -6,15 +6,88 @@ import numpy as np
 
 def open_camera_source(camera_source):
     """
-    Open webcam, video file, RTSP, HTTP/IP camera, or other OpenCV-compatible source.
+    Open a local camera, video file, or supported network video stream.
+
+    Network sources (RTSP/RTMP/HTTP/HTTPS) are opened with bounded timeouts
+    where the installed OpenCV backend supports them. This prevents a dead
+    drone/IP-camera address from blocking startup indefinitely. Actual stream
+    compatibility still depends on the URL, codec, network route, and OpenCV
+    build available on the host.
     """
-    cap = cv2.VideoCapture(camera_source)
+    is_network_stream = (
+        isinstance(camera_source, str)
+        and camera_source.strip().lower().startswith(
+            ("rtsp://", "rtsps://", "rtmp://", "http://", "https://")
+        )
+    )
 
-    if not cap.isOpened():
-        print(f"Error: Could not open camera source: {camera_source}")
-        return None
+    # Keep webcam and file behavior unchanged. Prefer FFmpeg for network video
+    # because it commonly handles RTSP/RTMP camera streams more reliably.
+    open_attempts = []
+    if is_network_stream and hasattr(cv2, "CAP_FFMPEG"):
+        open_timeout_ms = 8000
+        read_timeout_ms = 5000
+        try:
+            open_timeout_ms = max(
+                1000, int(os.environ.get("CROWDVISION_STREAM_OPEN_TIMEOUT_MS", "8000"))
+            )
+        except (TypeError, ValueError):
+            pass
+        try:
+            read_timeout_ms = max(
+                1000, int(os.environ.get("CROWDVISION_STREAM_READ_TIMEOUT_MS", "5000"))
+            )
+        except (TypeError, ValueError):
+            pass
 
-    return cap
+        timeout_params = []
+        if hasattr(cv2, "CAP_PROP_OPEN_TIMEOUT_MSEC"):
+            timeout_params.extend([cv2.CAP_PROP_OPEN_TIMEOUT_MSEC, open_timeout_ms])
+        if hasattr(cv2, "CAP_PROP_READ_TIMEOUT_MSEC"):
+            timeout_params.extend([cv2.CAP_PROP_READ_TIMEOUT_MSEC, read_timeout_ms])
+
+        if timeout_params:
+            open_attempts.append((cv2.CAP_FFMPEG, timeout_params))
+        open_attempts.append((cv2.CAP_FFMPEG, None))
+
+    # Always keep a generic OpenCV fallback for builds without FFmpeg support.
+    open_attempts.append((None, None))
+
+    for backend, params in open_attempts:
+        cap = None
+        try:
+            if backend is None:
+                cap = cv2.VideoCapture(camera_source)
+            elif params:
+                cap = cv2.VideoCapture(camera_source, backend, params)
+            else:
+                cap = cv2.VideoCapture(camera_source, backend)
+
+            if cap is not None and cap.isOpened():
+                if is_network_stream:
+                    # Reduce latency by avoiding a large queue of old frames.
+                    try:
+                        cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+                    except Exception:
+                        pass
+                return cap
+
+        except (TypeError, cv2.error) as error:
+            print(f"Camera open attempt failed: {error}")
+        except Exception as error:
+            print(f"Camera open attempt failed: {error}")
+
+        if cap is not None:
+            try:
+                cap.release()
+            except Exception:
+                pass
+
+    print(
+        "Error: Could not open camera source. For drone/IP streams, verify the "
+        "exact stream URL, credentials, codec, and network access from this computer."
+    )
+    return None
 
 
 def get_camera_source_label(camera_source):
