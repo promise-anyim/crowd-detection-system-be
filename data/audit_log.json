@@ -1,5 +1,1248 @@
 [
   {
+    "id": "audit_1792843817643",
+    "time": "2026-10-24 13:10:17",
+    "epoch": 1792843817.643074,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 53327,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792787985341",
+    "time": "2026-10-23 21:39:45",
+    "epoch": 1792787985.3410501,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 12735
+    }
+  },
+  {
+    "id": "audit_1792787799035",
+    "time": "2026-10-23 21:36:39",
+    "epoch": 1792787799.035788,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 12735,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792752296829",
+    "time": "2026-10-23 11:44:56",
+    "epoch": 1792752296.8293009,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 68730,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792746273538",
+    "time": "2026-10-23 10:04:33",
+    "epoch": 1792746273.5383282,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 48337,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792746264266",
+    "time": "2026-10-23 10:04:24",
+    "epoch": 1792746264.2660859,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
+    "id": "audit_1792745694679",
+    "time": "2026-10-23 09:54:54",
+    "epoch": 1792745694.679126,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "phone_camera_20261023_095129",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 46394,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792745669836",
+    "time": "2026-10-23 09:54:29",
+    "epoch": 1792745669.836837,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "phone_camera_20261023_095129",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to phone_camera_20261023_095129.",
+    "metadata": {
+      "profile_key": "phone_camera_20261023_095129"
+    }
+  },
+  {
+    "id": "audit_1792745656114",
+    "time": "2026-10-23 09:54:16",
+    "epoch": 1792745656.114399,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 44000
+    }
+  },
+  {
+    "id": "audit_1792745643180",
+    "time": "2026-10-23 09:54:03",
+    "epoch": 1792745643.180676,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
+    "id": "audit_1792745489987",
+    "time": "2026-10-23 09:51:29",
+    "epoch": 1792745489.9878259,
+    "actor": "Operator",
+    "action": "Stream source created",
+    "category": "camera_source",
+    "source": "Phone Camera",
+    "status": "Created",
+    "severity": "normal",
+    "details": "Stream source created and selected: Phone Camera.",
+    "metadata": {
+      "key": "phone_camera_20261023_095129",
+      "source_type": "phone_camera"
+    }
+  },
+  {
+    "id": "audit_1792745223213",
+    "time": "2026-10-23 09:47:03",
+    "epoch": 1792745223.2137952,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_094612.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_094612.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_094612.txt"
+    }
+  },
+  {
+    "id": "audit_1792745223170",
+    "time": "2026-10-23 09:47:03",
+    "epoch": 1792745223.1709812,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_094612.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_094612.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_094612.txt"
+    }
+  },
+  {
+    "id": "audit_1792745141805",
+    "time": "2026-10-23 09:45:41",
+    "epoch": 1792745141.805772,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_003613.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_003613.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_003613.txt"
+    }
+  },
+  {
+    "id": "audit_1792745141753",
+    "time": "2026-10-23 09:45:41",
+    "epoch": 1792745141.753674,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_003613.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_003613.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_003613.txt"
+    }
+  },
+  {
+    "id": "audit_1792744995019",
+    "time": "2026-10-23 09:43:15",
+    "epoch": 1792744995.01903,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 44000,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792712768800",
+    "time": "2026-10-23 00:46:08",
+    "epoch": 1792712768.8001049,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_003613.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_003613.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_003613.txt"
+    }
+  },
+  {
+    "id": "audit_1792712767176",
+    "time": "2026-10-23 00:46:07",
+    "epoch": 1792712767.176865,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_003613.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_003613.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_003613.txt"
+    }
+  },
+  {
+    "id": "audit_1792712202313",
+    "time": "2026-10-23 00:36:42",
+    "epoch": 1792712202.3132749,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261023_003613.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261023_003613.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261023_003613.txt"
+    }
+  },
+  {
+    "id": "audit_1792710917377",
+    "time": "2026-10-23 00:15:17",
+    "epoch": 1792710917.3777559,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_235348.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_235348.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_235348.txt"
+    }
+  },
+  {
+    "id": "audit_1792710917073",
+    "time": "2026-10-23 00:15:17",
+    "epoch": 1792710917.073753,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_235348.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_235348.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_235348.txt"
+    }
+  },
+  {
+    "id": "audit_1792710830510",
+    "time": "2026-10-23 00:13:50",
+    "epoch": 1792710830.5107698,
+    "actor": "Operator",
+    "action": "Telegram test alert",
+    "category": "telegram",
+    "source": "CrowdVision AI",
+    "status": "Failed",
+    "severity": "warning",
+    "details": "400 Client Error: Bad Request for url: https://api.telegram.org/bot8558745977:AAF6lKm7a9SlpREOe422YrqQUAw0awXRjuo/sendMessage",
+    "metadata": {
+      "sent": false
+    }
+  },
+  {
+    "id": "audit_1792710680578",
+    "time": "2026-10-23 00:11:20",
+    "epoch": 1792710680.578337,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_235348.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_235348.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_235348.txt"
+    }
+  },
+  {
+    "id": "audit_1792710680544",
+    "time": "2026-10-23 00:11:20",
+    "epoch": 1792710680.544727,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_235348.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_235348.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_235348.txt"
+    }
+  },
+  {
+    "id": "audit_1792705259325",
+    "time": "2026-10-22 22:40:59",
+    "epoch": 1792705259.3250492,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_224029.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_224029.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_224029.txt"
+    }
+  },
+  {
+    "id": "audit_1792705259290",
+    "time": "2026-10-22 22:40:59",
+    "epoch": 1792705259.2905002,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_224029.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_224029.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_224029.txt"
+    }
+  },
+  {
+    "id": "audit_1792705256923",
+    "time": "2026-10-22 22:40:56",
+    "epoch": 1792705256.923319,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to AUTO.",
+    "metadata": {
+      "mode": "AUTO"
+    }
+  },
+  {
+    "id": "audit_1792705254451",
+    "time": "2026-10-22 22:40:54",
+    "epoch": 1792705254.451819,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to LOW.",
+    "metadata": {
+      "mode": "LOW"
+    }
+  },
+  {
+    "id": "audit_1792705248713",
+    "time": "2026-10-22 22:40:48",
+    "epoch": 1792705248.713684,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to HIGH.",
+    "metadata": {
+      "mode": "HIGH"
+    }
+  },
+  {
+    "id": "audit_1792705241788",
+    "time": "2026-10-22 22:40:41",
+    "epoch": 1792705241.7887301,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to BALANCED.",
+    "metadata": {
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792705239946",
+    "time": "2026-10-22 22:40:39",
+    "epoch": 1792705239.9467719,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to HIGH.",
+    "metadata": {
+      "mode": "HIGH"
+    }
+  },
+  {
+    "id": "audit_1792705237254",
+    "time": "2026-10-22 22:40:37",
+    "epoch": 1792705237.254997,
+    "actor": "Operator",
+    "action": "Performance mode changed",
+    "category": "system",
+    "source": "System Performance",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Performance mode changed to ULTRA.",
+    "metadata": {
+      "mode": "ULTRA"
+    }
+  },
+  {
+    "id": "audit_1792705148605",
+    "time": "2026-10-22 22:39:08",
+    "epoch": 1792705148.6057842,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_223845.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_223845.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_223845.txt"
+    }
+  },
+  {
+    "id": "audit_1792705148522",
+    "time": "2026-10-22 22:39:08",
+    "epoch": 1792705148.5220978,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_223845.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_223845.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_223845.txt"
+    }
+  },
+  {
+    "id": "audit_1792704382149",
+    "time": "2026-10-22 22:26:22",
+    "epoch": 1792704382.149049,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 79447,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792659926204",
+    "time": "2026-10-22 10:05:26",
+    "epoch": 1792659926.204365,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_100216.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_100216.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_100216.txt"
+    }
+  },
+  {
+    "id": "audit_1792659926110",
+    "time": "2026-10-22 10:05:26",
+    "epoch": 1792659926.110197,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_100216.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_100216.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_100216.txt"
+    }
+  },
+  {
+    "id": "audit_1792659792513",
+    "time": "2026-10-22 10:03:12",
+    "epoch": 1792659792.513886,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_100216.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_100216.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_100216.txt"
+    }
+  },
+  {
+    "id": "audit_1792659792468",
+    "time": "2026-10-22 10:03:12",
+    "epoch": 1792659792.468726,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_100216.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_100216.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_100216.txt"
+    }
+  },
+  {
+    "id": "audit_1792659405592",
+    "time": "2026-10-22 09:56:45",
+    "epoch": 1792659405.592213,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 22804,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792651676044",
+    "time": "2026-10-22 07:47:56",
+    "epoch": 1792651676.0448909,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 12995,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792635542236",
+    "time": "2026-10-22 03:19:02",
+    "epoch": 1792635542.2360792,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_030612.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_030612.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_030612.txt"
+    }
+  },
+  {
+    "id": "audit_1792635542181",
+    "time": "2026-10-22 03:19:02",
+    "epoch": 1792635542.181419,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_030612.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_030612.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_030612.txt"
+    }
+  },
+  {
+    "id": "audit_1792635527201",
+    "time": "2026-10-22 03:18:47",
+    "epoch": 1792635527.201209,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 89133
+    }
+  },
+  {
+    "id": "audit_1792635427232",
+    "time": "2026-10-22 03:17:07",
+    "epoch": 1792635427.232642,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 89133,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792634051651",
+    "time": "2026-10-22 02:54:11",
+    "epoch": 1792634051.6512582,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 86377,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792634046013",
+    "time": "2026-10-22 02:54:06",
+    "epoch": 1792634046.0138812,
+    "actor": "Operator",
+    "action": "Monitoring stopped",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Stopped",
+    "severity": "normal",
+    "details": "AI monitoring engine stopped by operator.",
+    "metadata": {
+      "pid": 85245
+    }
+  },
+  {
+    "id": "audit_1792633725594",
+    "time": "2026-10-22 02:48:45",
+    "epoch": 1792633725.594362,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 85245,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792632171950",
+    "time": "2026-10-22 02:22:51",
+    "epoch": 1792632171.9508219,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78986,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792632128820",
+    "time": "2026-10-22 02:22:08",
+    "epoch": 1792632128.8203032,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78848,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792632104806",
+    "time": "2026-10-22 02:21:44",
+    "epoch": 1792632104.8062599,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78762,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631968811",
+    "time": "2026-10-22 02:19:28",
+    "epoch": 1792631968.81132,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78314,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631934372",
+    "time": "2026-10-22 02:18:54",
+    "epoch": 1792631934.372753,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78197,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631906030",
+    "time": "2026-10-22 02:18:26",
+    "epoch": 1792631906.0305521,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 78105,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631875266",
+    "time": "2026-10-22 02:17:55",
+    "epoch": 1792631875.266876,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 77994,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631840816",
+    "time": "2026-10-22 02:17:20",
+    "epoch": 1792631840.816808,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 77870,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631320990",
+    "time": "2026-10-22 02:08:40",
+    "epoch": 1792631320.990548,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 75900,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631291596",
+    "time": "2026-10-22 02:08:11",
+    "epoch": 1792631291.5961092,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 75795,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792631102566",
+    "time": "2026-10-22 02:05:02",
+    "epoch": 1792631102.566965,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_020443.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_020443.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_020443.txt"
+    }
+  },
+  {
+    "id": "audit_1792631087130",
+    "time": "2026-10-22 02:04:47",
+    "epoch": 1792631087.130584,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_015114.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_015114.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_015114.txt"
+    }
+  },
+  {
+    "id": "audit_1792631087097",
+    "time": "2026-10-22 02:04:47",
+    "epoch": 1792631087.097449,
+    "actor": "Operator",
+    "action": "Report preview opened",
+    "category": "reports",
+    "source": "camera_health_report_20261022_015114.txt",
+    "status": "Viewed",
+    "severity": "normal",
+    "details": "Report preview opened: camera_health_report_20261022_015114.txt",
+    "metadata": {
+      "filename": "camera_health_report_20261022_015114.txt"
+    }
+  },
+  {
+    "id": "audit_1792631068604",
+    "time": "2026-10-22 02:04:28",
+    "epoch": 1792631068.604203,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 75047,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792630256050",
+    "time": "2026-10-22 01:50:56",
+    "epoch": 1792630256.050324,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 71656,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792630109852",
+    "time": "2026-10-22 01:48:29",
+    "epoch": 1792630109.852902,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 71036,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629688154",
+    "time": "2026-10-22 01:41:28",
+    "epoch": 1792629688.154306,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 69234,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629645161",
+    "time": "2026-10-22 01:40:45",
+    "epoch": 1792629645.161553,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 69099,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629596996",
+    "time": "2026-10-22 01:39:56",
+    "epoch": 1792629596.996018,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 68942,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629563581",
+    "time": "2026-10-22 01:39:23",
+    "epoch": 1792629563.581913,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 68833,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629508657",
+    "time": "2026-10-22 01:38:28",
+    "epoch": 1792629508.657687,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
+    "id": "audit_1792629373040",
+    "time": "2026-10-22 01:36:13",
+    "epoch": 1792629373.040899,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 68218,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629312638",
+    "time": "2026-10-22 01:35:12",
+    "epoch": 1792629312.638518,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 68010,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629274330",
+    "time": "2026-10-22 01:34:34",
+    "epoch": 1792629274.330775,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 67882,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629113641",
+    "time": "2026-10-22 01:31:53",
+    "epoch": 1792629113.64197,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 67315,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792629084048",
+    "time": "2026-10-22 01:31:24",
+    "epoch": 1792629084.04815,
+    "actor": "Operator",
+    "action": "Remote camera connected",
+    "category": "camera_network",
+    "source": "Demo Edge Video",
+    "status": "Connected",
+    "severity": "normal",
+    "details": "Demo Edge Video started from the command dashboard.",
+    "metadata": {
+      "edge_id": "demo_video_01",
+      "pid": 67222,
+      "detect": true,
+      "security_key_enabled": false
+    }
+  },
+  {
+    "id": "audit_1792629072306",
+    "time": "2026-10-22 01:31:12",
+    "epoch": 1792629072.306505,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "uploaded_video_20260629_095850",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to uploaded_video_20260629_095850.",
+    "metadata": {
+      "profile_key": "uploaded_video_20260629_095850"
+    }
+  },
+  {
+    "id": "audit_1792628934347",
+    "time": "2026-10-22 01:28:54",
+    "epoch": 1792628934.347151,
+    "actor": "Operator",
+    "action": "Remote camera connected",
+    "category": "camera_network",
+    "source": "Demo Edge Video",
+    "status": "Connected",
+    "severity": "normal",
+    "details": "Demo Edge Video started from the command dashboard.",
+    "metadata": {
+      "edge_id": "demo_video_01",
+      "pid": 66734,
+      "detect": true,
+      "security_key_enabled": false
+    }
+  },
+  {
+    "id": "audit_1792628886058",
+    "time": "2026-10-22 01:28:06",
+    "epoch": 1792628886.058867,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 66582,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792628844501",
+    "time": "2026-10-22 01:27:24",
+    "epoch": 1792628844.5018072,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 66449,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792628775451",
+    "time": "2026-10-22 01:26:15",
+    "epoch": 1792628775.45105,
+    "actor": "Operator",
+    "action": "Monitoring started",
+    "category": "engine",
+    "source": "webcam_20260705_171619",
+    "status": "Started",
+    "severity": "normal",
+    "details": "AI monitoring engine started in BALANCED mode.",
+    "metadata": {
+      "pid": 66214,
+      "mode": "BALANCED"
+    }
+  },
+  {
+    "id": "audit_1792628767818",
+    "time": "2026-10-22 01:26:07",
+    "epoch": 1792628767.8184252,
+    "actor": "Operator",
+    "action": "Camera source selected",
+    "category": "camera_source",
+    "source": "webcam_20260705_171619",
+    "status": "Updated",
+    "severity": "normal",
+    "details": "Active camera source changed to webcam_20260705_171619.",
+    "metadata": {
+      "profile_key": "webcam_20260705_171619"
+    }
+  },
+  {
     "id": "audit_1792589879229",
     "time": "2026-10-21 14:37:59",
     "epoch": 1792589879.2297447,

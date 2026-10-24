@@ -225,3 +225,4 @@ Before exposing the application to the public internet or using it as a producti
 ## Related project
 
 The operator-facing web application is documented in the [CrowdVision AI Frontend repository](https://github.com/refino17/crowdvision-frontend).
+# crowd-detection-system-be

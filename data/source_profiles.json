@@ -102,5 +102,31 @@
       "name": "Entry / Exit Line",
       "y": 300
     }
+  },
+  "phone_camera_20261023_095129": {
+    "name": "Phone Camera",
+    "source": "http://192.168.0.105:4747/video",
+    "source_type": "phone_camera",
+    "created_at": "2026-10-23 09:51:29",
+    "zone": {
+      "name": "Main Monitoring Zone",
+      "x1": 40,
+      "y1": 80,
+      "x2": 560,
+      "y2": 520
+    },
+    "zones": [
+      {
+        "name": "Main Monitoring Zone",
+        "x1": 40,
+        "y1": 80,
+        "x2": 560,
+        "y2": 520
+      }
+    ],
+    "line": {
+      "name": "Entry / Exit Line",
+      "y": 300
+    }
   }
 }
