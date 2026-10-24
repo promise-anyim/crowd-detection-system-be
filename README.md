@@ -227,3 +227,27 @@ Before exposing the application to the public internet or using it as a producti
 The operator-facing web application is documented in the [CrowdVision AI Frontend repository](https://github.com/refino17/crowdvision-frontend).
 # crowd-detection-system-be
 # crowd-detection-system-be
+
+
+## Drone and Viewpro network video input
+
+The existing Main Monitoring source selector can be used for a drone-mounted camera when the camera/ground station exposes a **network video stream reachable from the computer running this backend**. The backend now prefers OpenCV's FFmpeg backend for network sources, applies bounded open/read timeouts where supported, and falls back to the generic OpenCV backend. This improves startup resilience; it does not make an unreachable stream reachable or guarantee every codec/protocol is supported.
+
+### Connect a Viewpro A40T/A40TR video feed
+
+1. Connect the backend computer to the same network/VLAN as the ground station or video receiver, or configure a valid routed connection to it.
+2. Obtain the exact video-output URL from the ground station/Viewpro configuration or its operator documentation. Do not guess an IP address or stream path. Confirm any username/password requirements.
+3. From the CrowdDetection System dashboard, choose the network/drone stream source and enter the confirmed URL. RTSP is a sensible first option when the ground station provides it; use HTTP/HTTPS/RTMP only when that is the actual configured output.
+4. Start Main Monitoring and verify that the displayed image is moving and the camera status remains online. If the feed does not open, test the URL from the same computer and check network reachability, codec support, and credentials.
+5. To return to the laptop camera, select the existing webcam profile. The stream changes are saved through the application's source-profile mechanism.
+
+Optional environment variables for the backend process:
+- `CROWDVISION_STREAM_OPEN_TIMEOUT_MS` — network stream open timeout in milliseconds (default `8000`).
+- `CROWDVISION_STREAM_READ_TIMEOUT_MS` — network stream read timeout in milliseconds (default `5000`).
+
+### Scope and hardware limitations
+
+- This integration is for **video ingest into the existing detection pipeline**. It does not implement UAV flight control, gimbal/payload control, telemetry integration, or drone commands.
+- The stated Viewpro thermal sensor capability does not automatically provide thermal-specific analytics. Thermal detection requires a validated thermal stream and dedicated testing/processing; normal RGB/person detection should not be represented as validated thermal analytics.
+- Micro-HDMI output requires a compatible HDMI capture device before the computer can ingest it as a camera source.
+- Actual live operation cannot be confirmed until the configured stream is reachable from the backend host and tested with the target ground station, codec, and credentials.
