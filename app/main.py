@@ -582,9 +582,125 @@ def main():
 
                 continue
 
-            print("End of stream or unable to read frame.")
-            mark_camera_offline(active_camera_profile, camera_source, "End of stream or unable to read frame")
-            break
+            is_network_stream = (
+                isinstance(camera_source, str)
+                and camera_source.strip().lower().startswith(
+                    ("rtsp://", "rtsps://", "rtmp://", "http://", "https://")
+                )
+            )
+
+            if is_network_stream:
+                # Release the failed capture before attempting to reopen it.
+                try:
+                    cap.release()
+                except Exception:
+                    pass
+
+                try:
+                    reconnect_attempts = max(
+                        1, int(os.environ.get(
+                            "CROWDVISION_STREAM_RECONNECT_ATTEMPTS", "5"
+                        ))
+                    )
+                except (TypeError, ValueError):
+                    reconnect_attempts = 5
+
+                try:
+                    reconnect_delay = max(
+                        0.1, float(os.environ.get(
+                            "CROWDVISION_STREAM_RECONNECT_DELAY_SECONDS", "2"
+                        ))
+                    )
+                except (TypeError, ValueError):
+                    reconnect_delay = 2.0
+
+                reconnected = False
+
+                for attempt in range(1, reconnect_attempts + 1):
+                    print(
+                        f"Network stream reconnect attempt "
+                        f"{attempt}/{reconnect_attempts}..."
+                    )
+                    time.sleep(reconnect_delay)
+
+                    new_cap = open_camera_source(camera_source)
+                    if new_cap is None:
+                        continue
+
+                    # Only accept reconnection when a real frame is received.
+                    probe_ret, probe_frame = new_cap.read()
+                    if not probe_ret or probe_frame is None:
+                        try:
+                            new_cap.release()
+                        except Exception:
+                            pass
+                        print("Reopened stream returned no frame; retrying.")
+                        continue
+
+                    cap = new_cap
+                    ret, frame = probe_ret, probe_frame
+                    try:
+                        cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+                    except Exception:
+                        pass
+
+                    # Reset tracking state so stale detections are not reused.
+                    latest_detections = []
+                    occupancy_tracker = OccupancyTracker()
+
+                    line_counter = LineCrossingCounter(
+                        counting_line["y"],
+                        LINE_CROSSING_COOLDOWN,
+                        line_buffer=LINE_CROSSING_HYSTERESIS,
+                        lost_ttl_frames=TRACK_LOST_TTL_FRAMES
+                    )
+
+                    heatmap = CrowdHeatmap(
+                        decay_rate=HEATMAP_DECAY_RATE,
+                        radius=HEATMAP_RADIUS,
+                        opacity=HEATMAP_OPACITY,
+                        blur_size=HEATMAP_BLUR_SIZE
+                    )
+
+                    movement_analyzer = MovementAnalyzer(
+                        movement_threshold=MOVEMENT_THRESHOLD,
+                        lost_ttl_frames=TRACK_LOST_TTL_FRAMES
+                    )
+
+                    raw_tracking_summary = empty_tracking_summary()
+                    tracking_summary = empty_tracking_summary()
+
+                    try:
+                        detector.reset_tracking()
+                    except Exception:
+                        pass
+
+                    try:
+                        camera_health_analyzer.reset()
+                    except Exception:
+                        pass
+
+                    camera_health_data = empty_camera_health()
+                    reconnected = True
+                    print("Network camera reconnected successfully.")
+                    break
+
+                if not reconnected:
+                    print(
+                        f"Network camera reconnection failed after "
+                        f"{reconnect_attempts} attempts."
+                    )
+
+            if not (is_network_stream and reconnected):
+                print("End of stream or unable to read frame.")
+                mark_camera_offline(
+                    active_camera_profile,
+                    camera_source,
+                    "End of stream or unable to read frame"
+                )
+                break
+
+            # A valid recovered frame is ready for normal processing below.
 
         frame_counter += 1
         current_time = time.time()
