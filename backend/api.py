@@ -3115,10 +3115,12 @@ def create_stream_source(
     stream_url: str = Form(...),
     source_type: str = Form("ip_camera")
 ):
-    if not stream_url.startswith(("http://", "https://", "rtsp://", "rtmp://")):
+    if not stream_url.strip().lower().startswith(
+        ("http://", "https://", "rtsp://", "rtsps://", "rtmp://")
+    ):
         raise HTTPException(
             status_code=400,
-            detail="Stream URL must start with http, https, rtsp, or rtmp"
+            detail="Stream URL must start with http, https, rtsp, rtsps, or rtmp"
         )
 
     key = create_source_key(source_type)
